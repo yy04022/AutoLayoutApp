@@ -16,6 +16,7 @@
 		3CF210C62717970900D6C1D6 /* AutoLayoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF210C52717970900D6C1D6 /* AutoLayoutAppTests.swift */; };
 		3CF210D02717970900D6C1D6 /* AutoLayoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF210CF2717970900D6C1D6 /* AutoLayoutAppUITests.swift */; };
 		3CF210D22717970900D6C1D6 /* AutoLayoutAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF210D12717970900D6C1D6 /* AutoLayoutAppUITestsLaunchTests.swift */; };
+		3CF210DF2717B30600D6C1D6 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CF210DE2717B30600D6C1D6 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3CF210CB2717970900D6C1D6 /* AutoLayoutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF210CF2717970900D6C1D6 /* AutoLayoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutAppUITests.swift; sourceTree = "<group>"; };
 		3CF210D12717970900D6C1D6 /* AutoLayoutAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CF210DE2717B30600D6C1D6 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = ../../../../../Downloads/alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		3CF210AD2717970500D6C1D6 /* AutoLayoutApp */ = {
 			isa = PBXGroup;
 			children = (
+				3CF210DE2717B30600D6C1D6 /* alarm_sound.mp3 */,
 				3CF210AE2717970500D6C1D6 /* AppDelegate.swift */,
 				3CF210B02717970500D6C1D6 /* SceneDelegate.swift */,
 				3CF210B22717970500D6C1D6 /* ViewController.swift */,
@@ -233,6 +236,7 @@
 			files = (
 				3CF210BB2717970900D6C1D6 /* LaunchScreen.storyboard in Resources */,
 				3CF210B82717970900D6C1D6 /* Assets.xcassets in Resources */,
+				3CF210DF2717B30600D6C1D6 /* alarm_sound.mp3 in Resources */,
 				3CF210B62717970500D6C1D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
